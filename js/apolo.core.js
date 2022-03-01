@@ -319,7 +319,7 @@
 			pageLoader: function(customDelay) {
 				var preloader = $('.apo-preloader');
 				if(!preloader.length) return;
-				customDelay = customDelay ? customDelay : 1500;
+				customDelay = 500;
 
 				setTimeout(function(){
 					$('body').apoImagesLoaded().then(function(){
@@ -332,7 +332,7 @@
 			backToTop: {
 				config: {
 					easing: 'linear',
-					duration: 400
+					duration: 100
 				},
 				init: function( collection, config ) {
 					if(!collection || !collection.length) {
