@@ -134,7 +134,7 @@
  	
  			if( $.fn.revolution ) {
 				mainRev = jQuery('#rev-slider-1').show().revolution({
-					delay: 9000,
+					delay: 1000,
 		            sliderLayout: 'fullscreen',
 		            disableProgressBar: "on",
 		            responsiveLevels: [4096,1024,778,480],
