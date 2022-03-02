@@ -7003,6 +7003,28 @@ table {
   line-height: 24px;
 }
 
+.iframe-vimeo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/* @media screen and (min-width: 400px) {
+  .iframe-vimeo{
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .iframe-vimeo{
+    height: 1080px;
+    width: 100%;
+  } 
+}*/
+
 .apo-portfolio-container.apo-style-4 .apo-project a {
   color: white;
   background-position: 0 18px;
