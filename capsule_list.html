@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Basic page needs-->
-    <title>Capsule | Ajay</title>
+    <title>Artalpha</title>
     <meta charset="UTF-8"/>
     <meta name="author" content=""/>
     <meta name="description" content=""/>
@@ -25,9 +25,7 @@
     <link rel="stylesheet" media="all" href="css/hamburgers.min.css"/>
     <link rel="stylesheet" media="all" href="css/animate.css"/>
     <link rel="stylesheet" media="all" href="vendors/fancybox/jquery.fancybox.min.css"/>
-    <link rel="stylesheet" media="all" href="vendors/revolution/css/settings.css"/>
-    <link rel="stylesheet" media="all" href="vendors/revolution/css/layers.css"/>
-    <link rel="stylesheet" media="all" href="vendors/revolution/css/navigation.css"/>
+    <link rel="stylesheet" media="all" href="vendors/fullpage/jquery.fullpage.min.css"/>
     <link rel="stylesheet" media="all" href="vendors/owl-carousel/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" media="all" href="vendors/mCustomScrollbar/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" media="all" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css"/>
@@ -36,12 +34,20 @@
     <!-- Vendor JS-->
     <script src="vendors/modernizr.js"></script>
   </head>
-  <body >
+  <body class="apo-page-dark-skin apo-fp-photo-stream">
     <!-- Preloader-->
- 
+    <div class="apo-preloader">
+      <div class="apo-preloader-outer">
+        <div class="apo-preloader-inner">
+          <div class="apo-loader">
+            <h1 style="color: black;margin-top: 20px;">AJ</h1>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- End Preloader-->
     <!-- Site Header-->
-    <!-- Hidden Side Column-->
+    <!-- Site Header-->
     <header id="header" class="apo-header apo-header-transparent">
       <div class="apo-header-section">
         <div class="apo-header-component-first">
@@ -53,23 +59,32 @@
             </div>
             <div style="color: white;display: flex;justify-content: center;align-items: center;">
               
-                <a style="color: white;display: flex;justify-content: center;align-items: center;" href="javascript:history.back()"><i style="color: white;font-size: 40px;" class="apo-icon-prev"></i> &nbsp; &nbsp; <p style="font-size: 30px;">Back</p></a>&nbsp;
+                <a style="color: white;display: flex;justify-content: center;align-items: center;" href="/index.html"><i style="color: white;font-size: 40px;" class="apo-icon-prev"></i> &nbsp; &nbsp; <p style="font-size: 30px;">Back</p></a>&nbsp;
   
             </div>
           </div>
         </div>
         
     </header>
-    <!-- End Hidden Side Column-->
-    <div  class="rev_slider_wrapper fullscreen-container">
-      <img src="images/capsule/1.jpeg" alt="" class="rev-slidebg"/>
-      <img src="images/capsule/2.jpeg" alt="" class="rev-slidebg"/>
-      <img src="images/capsule/3.jpeg" alt="" class="rev-slidebg"/>
-      <img src="images/capsule/4.jpeg" alt="" class="rev-slidebg"/>
-      <img src="images/capsule/5.jpeg" alt="" class="rev-slidebg"/>
-      <img src="images/capsule/6.jpeg" alt="" class="rev-slidebg"/>
+    <!-- End Site Header-->
+    <!-- Page Content-->
+    <div class="apo-page">
+      
+      <div id="apo-full-page" class="apo-full-page-container apo-photo-stream">
+        <div data-bg-img-src="images/capsule/1.jpeg" class="fp-section"><img src="images/capsule/1.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        <div data-bg-img-src="images/capsule/2.jpeg" class="fp-section"><img src="images/capsule/2.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        <div data-bg-img-src="images/capsule/3.jpeg" class="fp-section"><img src="images/capsule/3.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        <div data-bg-img-src="images/capsule/4.jpeg" class="fp-section"><img src="images/capsule/4.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        <div data-bg-img-src="images/capsule/5.jpeg" class="fp-section"><img src="images/capsule/5.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        <div data-bg-img-src="images/capsule/6.jpeg" class="fp-section"><img src="images/capsule/6.jpeg" alt="" class="apo-photo-stream-hidden-img"/></div>
+        </div>
     </div>
+    <!-- End Page Content-->
+    <!-- Footer-->
     <!-- End Footer-->
+    <!-- Modal Window-->
+   
+    <!-- End Modal Window-->
     <!-- Vendor JS-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="vendors/handlebars-v4.0.5.js"></script>
@@ -88,16 +103,15 @@
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="vendors/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
-    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="vendors/swiper/swiper.min.js"></script>
-    <script src="vendors/parallax.min.js"></script>
+    <script src="vendors/fullpage/vendors/scrolloverflow.min.js"></script>
+    <script src="vendors/fullpage/jquery.fullpage.min.js"></script>
     <!-- Theme JS-->
     <script src="js/apolo.core.js"></script>
     <script src="js/modules/apolo.newsletter.js"></script>
     <script src="js/modules/apolo.sameheight.js"></script>
     <script src="js/modules/apolo.appear.js"></script>
     <script src="js/modules/apolo.isotope.js"></script>
+    <script src="js/modules/apolo.fullpage.js"></script>
     <script src="js/apolo.init.js"></script>
   </body>
 </html>
