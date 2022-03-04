@@ -8931,7 +8931,7 @@ table {
 ------------------------------------------------ */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 144 dpi){
+only screen and (min-resolution: 144dpi){
     .apo-scroll-down-icon {
       background-image: url("../images/scrolldown-icon@2x.png");
       background-size: 20px 120px;
