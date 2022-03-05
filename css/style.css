@@ -899,7 +899,9 @@ body {
   font-size: 16px;
   line-height: 30px;
 }
-
+.apo-parallax-grid-item:hover{
+  all: none;
+}
 /* ------------------------------------------------------
   3. General Classes
 ------------------------------------------------------ */
@@ -6574,6 +6576,7 @@ table {
   width: 100%;
 }
 
+
 .apo-project-title {
   text-transform: uppercase;
 }
@@ -7013,14 +7016,14 @@ table {
   height: 100%;
 }
 
-/* .bottom-padding{
-  height: auto;
+.cv{
+  margin: 0 1vw
 }
 @media screen and (min-width: 430px) {
-  .bottom-padding{
-    height: 60vh !important;
+  .cv{
+    margin: 5vh 20vw 0 20vw
   }
-}  */
+}
 /*
 @media screen and (min-width: 900px) {
   .iframe-vimeo{

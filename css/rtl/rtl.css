@@ -974,11 +974,6 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
   background-position: 100% 22px;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-media img {
-  -webkit-transform: rotate3d(0, 0, 1, -2deg) scale3d(1.05, 1.05, 1.05);
-          transform: rotate3d(0, 0, 1, -2deg) scale3d(1.05, 1.05, 1.05);
-}
-
 /* ------------------------------------------------------
             10.2.5. Style 5
         ------------------------------------------------------ */
