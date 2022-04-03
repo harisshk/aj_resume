@@ -6738,7 +6738,6 @@ table {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #13161d;
   opacity: .8;
   z-index: 1;
 }
@@ -6781,13 +6780,6 @@ table {
   opacity: 1;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-media img {
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
-  -webkit-transform: scale3d(1.03, 1.03, 1.03);
-          transform: scale3d(1.03, 1.03, 1.03);
-}
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-2 .apo-project-footer {
   -webkit-transform: scale3d(1.2, 1.2, 1.2);
@@ -6805,17 +6797,6 @@ table {
   transition-delay: 400ms;
 }
 
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-media img,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-header,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-content,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-2 .apo-project:hover .apo-project-footer,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-media img,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-2 .apo-project.apo-touch-state-hover .apo-project-footer {
-  -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
-}
 
 /* ------------------------------------------------------
 		    10.2.3. Style 3
@@ -6858,10 +6839,6 @@ table {
   background-position: 0 22px;
 }
 
-.apo-portfolio-container.apo-style-3 .apo-project-media {
-  position: relative;
-  z-index: 1;
-}
 
 .apo-portfolio-container.apo-style-3 .apo-project-content-wrap {
   position: absolute;
@@ -6939,13 +6916,7 @@ table {
   background-image: none;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-media img {
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
-  -webkit-transform: scale3d(1.03, 1.03, 1.03);
-          transform: scale3d(1.03, 1.03, 1.03);
-}
+
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-footer {
   transition-property: opacity, visibility, -webkit-transform;
@@ -6965,18 +6936,6 @@ table {
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-3 .apo-project-footer {
   transition-delay: 300ms;
-}
-
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-media img,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-header,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-content,
-.apo-csstransforms3d.apo-no-touchevents .apo-portfolio-container.apo-style-3 .apo-project:hover .apo-project-footer,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-media img,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-header,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-content,
-.apo-csstransforms3d.apo-touchevents .apo-portfolio-container.apo-style-3 .apo-project.apo-touch-state-hover .apo-project-footer {
-  -webkit-transform: scale3d(1, 1, 1);
-          transform: scale3d(1, 1, 1);
 }
 
 /* ------------------------------------------------------
@@ -7102,13 +7061,6 @@ table {
   visibility: visible;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-media img {
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
-}
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project-footer {
   -webkit-transform: translate3d(0, 5px, 0);
@@ -7130,10 +7082,6 @@ table {
   transition-delay: 500ms;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-media img {
-  -webkit-transform: rotate3d(0, 0, 1, 2deg) scale3d(1.05, 1.05, 1.05);
-          transform: rotate3d(0, 0, 1, 2deg) scale3d(1.05, 1.05, 1.05);
-}
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-header, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-content, .apo-csstransforms3d .apo-portfolio-container.apo-style-4 .apo-project.apo-project--hover-state .apo-project-footer {
   -webkit-transform: translate3d(0, 0, 0);
@@ -7229,11 +7177,6 @@ table {
   background-position: 0 22px;
 }
 
-.apo-csstransforms3d .apo-portfolio-container.apo-style-5 .apo-project-media img {
-  transition: -webkit-transform 10s linear;
-  transition: transform 10s linear;
-  transition: transform 10s linear, -webkit-transform 10s linear;
-}
 
 .apo-csstransforms3d .apo-portfolio-container.apo-style-5 .apo-project:hover .apo-project-media img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
