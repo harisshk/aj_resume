@@ -135,9 +135,9 @@
  			if( $.fn.revolution ) {
 				mainRev = jQuery('#rev-slider-1').show().revolution({
 					delay: 1000,
-		            //sliderLayout: 'fullscreen',
+					
+		            sliderLayout: 'fullscreen',
 		            disableProgressBar: "on",
-		            responsiveLevels: [4096,1024,778,480],
 		            navigation : {
 						onHoverStop: "off",
 						keyboardNavigation: 'on',
@@ -149,11 +149,8 @@
 			    });
 			    secondaryRev = jQuery('#rev-slider-2').show().revolution({
 					delay: 9000,
-		            //sliderLayout: 'fullscreen',
+		            sliderLayout: 'fullscreen',
 		            disableProgressBar: "on",
-		            responsiveLevels: [4096,1281,778,480],
-		            gridwidth: [1400, 900, 778, 480],
-					gridheight: [900, 600, 500, 400],
 		            navigation : {
 						onHoverStop: "off",
 						keyboardNavigation: 'on',
