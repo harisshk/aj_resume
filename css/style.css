@@ -333,7 +333,7 @@ body {
   height: 100px;
   line-height: 100px;
   border-radius: 50%;
-  background-color: rgb(213, 213, 213);
+  background-color: rgb(255, 255, 255);
   -webkit-animation: apoBorderPulse 900ms ease .0s infinite;
   animation: apoBorderPulse 900ms ease .0s infinite;
 }
