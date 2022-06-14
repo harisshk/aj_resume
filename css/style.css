@@ -333,12 +333,14 @@ body {
   height: 100px;
   line-height: 100px;
   border-radius: 50%;
+  background-color: rgb(213, 213, 213);
   -webkit-animation: apoBorderPulse 900ms ease .0s infinite;
   animation: apoBorderPulse 900ms ease .0s infinite;
 }
 
 .apo-loader img {
-  vertical-align: middle;
+  vertical-align: center;
+  margin-top: -5px;
 }
 
 @-webkit-keyframes apoBorderPulse {
@@ -2112,7 +2114,7 @@ body.apo-header-vertical-right .apo-header.apo-header-vertical {
 
 .apo-header-vertical.apo-style-2 .apo-logo {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .apo-header-vertical.apo-style-2 .apo-header-component-first .apo-header-items {
